@@ -1,0 +1,52 @@
+.jfx-list-cell:selected{
+    -fx-background-color: #009688; 
+}
+.jfx-list-cell:hover{
+    -fx-background-color: #b2dfdb;
+}
+.jfx-list-view:selected{
+    -fx-border-color: #009688;
+}
+.jfx-list-cell{
+    -fx-background-insets: 2;
+}
+.jfx-list-view{
+    -fx-background-insets: 0;
+    -fx-padding: 10;
+    -fx-cell-vertical-margin: 10.0;
+    -fx-vertical-gap: 10.0;
+}
+
+JFXListView .scroll-bar:horizontal .track,
+JFXListView .scroll-bar:vertical .track{
+    -fx-background-color:#E0F2F1;
+    -fx-border-color:transparent;
+    -fx-background-radius: 0em;
+    -fx-border-radius:2em;
+}
+
+JFXListView .scroll-bar:horizontal .increment-button ,
+JFXListView .scroll-bar:horizontal .decrement-button {
+    -fx-background-color:#E0F2F1;
+    -fx-background-radius: 0em;
+    -fx-padding:0 0 10 0;
+}
+
+JFXListView .scroll-bar:vertical .increment-button ,
+JFXListView .scroll-bar:vertical .decrement-button {
+    -fx-background-color:#E0F2F1;
+    -fx-background-radius: 0em;
+    -fx-padding:0 10 0 0;
+}
+JFXListView  .scroll-bar .increment-arrow,
+JFXListView  .scroll-bar .decrement-arrow{
+    -fx-shape:" ";  
+    -fx-padding:0;
+}
+
+JFXListView .scroll-bar:horizontal .thumb,
+JFXListView .scroll-bar:vertical .thumb {
+    -fx-background-color:#ffffff;
+    -fx-background-insets: 2, 2, 2;
+    -fx-background-radius: 3em;
+}
